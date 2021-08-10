@@ -13,6 +13,7 @@
 		CB25CF3926C23CF50019B66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25CF3726C23CF50019B66E /* Main.storyboard */; };
 		CB25CF3B26C23CF60019B66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB25CF3A26C23CF60019B66E /* Assets.xcassets */; };
 		CB25CF3E26C23CF60019B66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25CF3C26C23CF60019B66E /* LaunchScreen.storyboard */; };
+		CB25CF4926C241BE0019B66E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB25CF4826C241BE0019B66E /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB25CF3A26C23CF60019B66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB25CF3D26C23CF60019B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB25CF3F26C23CF60019B66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB25CF4826C241BE0019B66E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		CB25CF3026C23CF50019B66E /* Dear_log_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CB25CF4726C241A90019B66E /* Font */,
+				CB25CF4626C2412A0019B66E /* VC */,
+				CB25CF4526C240B00019B66E /* View */,
 				CB25CF3126C23CF50019B66E /* AppDelegate.swift */,
 				CB25CF3326C23CF50019B66E /* SceneDelegate.swift */,
-				CB25CF3526C23CF50019B66E /* ViewController.swift */,
-				CB25CF3726C23CF50019B66E /* Main.storyboard */,
 				CB25CF3A26C23CF60019B66E /* Assets.xcassets */,
 				CB25CF3C26C23CF60019B66E /* LaunchScreen.storyboard */,
 				CB25CF3F26C23CF60019B66E /* Info.plist */,
 			);
 			path = Dear_log_iOS;
+			sourceTree = "<group>";
+		};
+		CB25CF4526C240B00019B66E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB25CF3726C23CF50019B66E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB25CF4626C2412A0019B66E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CB25CF3526C23CF50019B66E /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CB25CF4726C241A90019B66E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CB25CF4826C241BE0019B66E /* Roboto-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +153,7 @@
 			files = (
 				CB25CF3E26C23CF60019B66E /* LaunchScreen.storyboard in Resources */,
 				CB25CF3B26C23CF60019B66E /* Assets.xcassets in Resources */,
+				CB25CF4926C241BE0019B66E /* Roboto-Regular.ttf in Resources */,
 				CB25CF3926C23CF50019B66E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
